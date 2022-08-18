@@ -1,0 +1,78 @@
+body {
+    background: rgb(53,224,255);
+    background: linear-gradient(180deg, rgba(53,224,255,1) 0%, rgba(0,65,255,1) 100%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.photo-profile {
+    border-radius: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border: 1px solid rgb(2, 106, 137);
+}
+
+.profile-name {
+      text-align: center;
+      padding: 30px;
+  }
+
+.link {
+      text-align: center;
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid white;
+      border-width: 2px;
+      width: 290px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 35px;
+      
+  }
+
+a {
+    text-decoration: none;
+    color: rgb(232, 247, 254);
+    
+}
+
+a:hover {
+    color: rgb(0, 183, 215);
+    background: rgb(202, 238, 245);
+    transition: all  0.5s;
+     
+
+}
+
+.playlist {
+    padding: 3em;
+	text-align: center;
+    border-radius: 40px;    
+    overflow: hidden;
+}
+
+iframe {
+    border-radius: 15px;
+    width: 40%;
+}
+
+@media screen and (max-width: 480px) {
+   .playlist {
+        width: 100%;
+        padding: 0;
+        padding-top: 4em;
+        padding-bottom: 2em;
+        border-radius: 2px;
+   }
+   
+   iframe {
+       width: 100%;
+   }
+
+   }
+   
